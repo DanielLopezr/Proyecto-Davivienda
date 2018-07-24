@@ -1,0 +1,36 @@
+
+
+.header {
+	background-color: #FF0000;
+	position: fixed;
+	top: 0px;
+	padding: 3% 4% 3% 2%;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3),0 0 40px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4) inset;
+
+}
+
+.encabezado_logo {
+	width: 70%;
+	float: left;
+	padding-left: 8%;
+	height: 10%;
+}
+
+.encabezado_salir {
+	width: 10%;
+	float: right;
+}
+
+.logo {
+	width: 115%;
+}
+
+.salir {
+	width: 100%;
+}
+
+.contenido {
+	padding-top: 20vh;
+}
