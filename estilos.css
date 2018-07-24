@@ -8,7 +8,6 @@
 	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3),0 0 40px rgba(0, 0, 0, 0.4) inset;
     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4) inset;
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.4) inset;
-
 }
 
 .encabezado_logo {
@@ -21,16 +20,65 @@
 .encabezado_salir {
 	width: 10%;
 	float: right;
+	align-items: center;
+	justify-content: center;
 }
 
 .logo {
-	width: 115%;
-}
-
-.salir {
 	width: 100%;
 }
 
-.contenido {
-	padding-top: 20vh;
+.salir {
+	width: 70%;
 }
+
+#contenido {	
+	height: 100%;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	margin-bottom: 0px !important;
+	display: flex !important;
+	padding-top: 0px !important;
+}
+.linkF{
+	width: 20%;
+	display: block;
+	padding: 2%;
+	border: 0px 1px 0px 1px solid black;
+	height: 10vh;
+	text-align: center;
+	border-left: 0.2px solid black;
+	border-right: 0.2px solid black;
+}
+	
+	a p {
+		color: black;
+	}
+
+	#uno{
+		font-size: 0.6em;
+	}
+
+
+	#dos{
+		font-size: 0.7em;
+	}
+
+
+	#tres{
+		font-size: 1em;
+	}
+
+
+	#cuatro{
+		font-size:	0.7em;
+	}
+
+
+	#cinco{
+		font-size: 1em;
+	}
