@@ -1,100 +1,103 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Prototipo</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	    <link rel="stylesheet" href="estilos.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-	</head>
-	<body >
-		<header class="header">
-			<div class="encabezado_logo">
-				<img class="logo" src="imgs\logo-davivienda.png">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prototipo</title>
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+	<header class="header">
+		<div class="encabezado_logo">
+			<img class="logo" src="imgs\logo-davivienda.png">
+		</div>
+		<div class="encabezado_salir">
+			<a href="#">
+				<img class="salir" src="imgs\boton-x.png">
+			</a>
+		</div>
+	</header>
+	<main id="contenido">
+		<div class="container-fluid bg-transparent pr-5 pl-5 pt-4">
+			<form>
+				<div class="form-group">
+					<label><h6>Tipo de documento</h6></label>
+					<select class="form-control" id="exampleFormControlSelect1">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlInput1"><h6>Número de documento</h6></label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="#">
+				</div>
+				<div class="form-check text-center">
+					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+					<label class="form-check-label" for="defaultCheck1">
+						Recordar mis datos
+					</label>
+				</div>
+				<div class="text-center pt-3">
+					  <button type="submit" class="btn btn-primary bg-danger">Ingresar</button>
+				</div>
+				<div class="text-center pt-4">
+					<p>¿Olvidó o bloqueó su clave?</p>
+					<hr class="hr"/>
+					<p>Terminos y condiciones</p>
+				</div>
+				<div >
+					
+				</div>
+			</form>
+		</div>
+		<div class="container-fluid bg-danger centered">
+			<div style="height: 50%;">
+				<img src="imgs/icon.png" class="img-fluid">
 			</div>
-			<div class="encabezado_salir">
-            	<a href="#">
-					<img class="salir" src="imgs\boton-x.png">
-				</a>
+			<div class="text-center text-white" style="padding: 2%">
+				<h5 class="font-weight-bold">Davivienda Móvil</h5>
+				<p>Realice en un clic, consultas, transferencias y pagos, donde y cuando quiera</p>
 			</div>
-		</header>
-		<main id="contenido" class="card-panel transparent">
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</main>
-		<footer class="page-footer white">			
-			<div class="linkF">
-				<a href="#">
-					<i class="material-icons black-text">business_center</i>
-					<p id="uno">Abrir productos en línea</p>
-				</a>
-			</div>
-			<div class="linkF">
-				<a href="#">
-					<i class="material-icons black-text">question_answer</i>
-					<p id="dos">Atención el Línea</p>
-				</a>
-			</div>
-			<div class="linkF">
-				<a href="#">
-					<i class="material-icons red-text">view_comfy</i>
-					<p id="tres">Apps</p>
-				</a>
-			</div>
-			<div class="linkF">
-				<a href="#">
-					<i class="material-icons black-text">place</i>
-					<p id="cuatro">Puntos de Atención</p>
-				</a>
-			</div>
-			<div class="linkF">
-				<a href="#">
-					<i class="material-icons black-text	">menu</i>
-					<p id="cinco">Más...</p>
-				</a>
-			</div>
-		</footer>
-		<script type="text/javascript" src="main.js"></script>
-	</body>
+		</div>
+	</main>
+	<footer>			
+		<div class="linkF">
+			<a href="#">
+				<i class="fas fa-briefcase fa-lg"></i>
+				<p id="uno">Abrir productos en línea</p>
+			</a>
+		</div>
+		<div class="linkF">
+			<a href="#">
+				<i class="fas fa-comments fa-lg"></i>
+				<p id="dos">Atención en Línea</p>
+			</a>
+		</div>
+		<div class="linkF">
+			<a href="#" id="rojis">
+				<i class="fas fa-th fa-2x"></i>
+				<p id="tres">Apps</p>
+			</a>
+		</div>
+		<div class="linkF">
+			<a href="#">
+				<i class="fas fa-map-marker-alt fa-lg"></i>
+				<p id="cuatro">Puntos de Atención</p>
+			</a>
+		</div>
+		<div class="linkF" id="last">
+			<a href="#">
+				<i class="fas fa-bars fa-lg"></i>
+				<p id="cinco">Más...</p>
+			</a>
+		</div>
+	</footer>
+	<script type="text/javascript" src="main.js"></script>
+</body>
 </html>
