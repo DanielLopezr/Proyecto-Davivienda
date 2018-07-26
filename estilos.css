@@ -5,7 +5,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
+  padding-bottom: 13vh;
 }
 
 .header {
@@ -102,13 +102,29 @@ footer {
 		color: #FF0000;
 	}
 
-.incono { 
-	background:url() no-repeat center left;
-	padding-left:20px;
-}
+	#negris {
+		color: #000000;
+	}
+
+	.rojis {
+		color: #FF0000;
+	}
+
+	.negris {
+		color: #000000 !important;
+	}
+
+
+	.blanquis {
+		color: white !important;
+	}
+
+	.red {
+		background-color: #FF0000 !important;
+	}
 
 .hr {
-	border-top: 2px solid black;
+	border-top: 1.7px solid black;
 	width: 60%;
 	color: gray;
 }
@@ -123,6 +139,18 @@ footer {
 		line-height: 0.8em;
 	}
 
-.respimg-ver{
-	
+.formu {
+	background-color: rgba(127,127,127,0.50) !important;
+	border-left: 0px !important;
+	height: 8vh !important;
+	border-radius: 0px 4px 4px 0px !important; 
+}
+
+.iconCont {
+	border: 1px solid #d7dbd8;
+	border-radius: 4px 0px 0px 4px;
+	border-right: 0px;
+	height: 8vh;
+	background-color: rgb(127,127,127,0.50);
+	padding-left: 4%;
 }

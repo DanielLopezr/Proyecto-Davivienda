@@ -21,43 +21,50 @@
 		</div>
 	</header>
 	<main id="contenido">
-		<div class="container-fluid bg-transparent pr-5 pl-5 pt-4">
+		<div class="container-fluid bg-transparent pl-5 pr-5 pt-4">
 			<form>
-				<div class="form-group">
-					<label><h6>Tipo de documento</h6></label>
-					<select class="form-control" id="exampleFormControlSelect1">
-						<option>1</option>
+				<label><h6>Tipo de documento</h6></label>
+				<div class="form-group centered blanquis">
+					<div class="iconCont centered">
+						<i class=" fas fa-address-card fa-lg"></i>	
+					</div>
+					<select class="form-control custom-select formu blanquis">
+						<option>Cedula de Ciudadanía</option>
 						<option>2</option>
 						<option>3</option>
 						<option>4</option>
 						<option>5</option>
 					</select>
 				</div>
-				<div class="form-group">
-					<label for="exampleFormControlInput1"><h6>Número de documento</h6></label>
-					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="#">
+
+				<label for="exampleFormControlInput1"><h6>Número de documento</h6></label>
+				<div class="form-group centered">
+					<div class="iconCont centered blanquis">
+						<i class="fas fa-hashtag fa-lg"></i>
+					</div>
+					<input class="form-control formu">
 				</div>
+
 				<div class="form-check text-center">
 					<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-					<label class="form-check-label" for="defaultCheck1">
+					<label class="form-check-label negris" for="defaultCheck1">
 						Recordar mis datos
 					</label>
 				</div>
-				<div class="text-center pt-3">
-					  <button type="submit" class="btn btn-primary bg-danger">Ingresar</button>
+
+				<div class="text-center pt-3 ">
+					<button type="submit" class="btn btn-primary red">Ingresar</button>
 				</div>
+
 				<div class="text-center pt-4">
-					<p>¿Olvidó o bloqueó su clave?</p>
+					<p><a href="#" class="negris">¿Olvidó o bloqueó su clave?</a></p>
 					<hr class="hr"/>
-					<p>Terminos y condiciones</p>
-				</div>
-				<div >
-					
+					<p><a href="#" class="negris">Terminos y condiciones</a></p>
 				</div>
 			</form>
 		</div>
-		<div class="container-fluid bg-danger centered">
-			<div class="">
+		<div class="container-fluid centered red">
+			<div>
 				<img src="imgs/icon.png" class="img-fluid">
 			</div>
 			<div class="text-center text-white" style="padding: 2%">
@@ -68,13 +75,13 @@
 	</main>
 	<footer>			
 		<div class="linkF">
-			<a href="#">
+			<a href="#" class="negris">
 				<i class="fas fa-briefcase fa-lg"></i>
 				<p id="uno">Abrir productos en línea</p>
 			</a>
 		</div>
 		<div class="linkF">
-			<a href="#">
+			<a href="#" class="negris">
 				<i class="fas fa-comments fa-lg"></i>
 				<p id="dos">Atención en Línea</p>
 			</a>
@@ -86,13 +93,13 @@
 			</a>
 		</div>
 		<div class="linkF">
-			<a href="#">
+			<a href="#" class="negris">
 				<i class="fas fa-map-marker-alt fa-lg"></i>
 				<p id="cuatro">Puntos de Atención</p>
 			</a>
 		</div>
 		<div class="linkF" id="last">
-			<a href="#">
+			<a href="#" class="negris">
 				<i class="fas fa-bars fa-lg"></i>
 				<p id="cinco">Más...</p>
 			</a>
