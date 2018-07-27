@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prototipo</title>
+	<link rel="stylesheet" href="estilos_menu_def.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script src="jquery-3.3.1.min"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="encabezado_logo">
+			<img class="logo" src="imgs\logo-davivienda.png">
+		</div>
+		<div class="encabezado_salir">
+			<a href="#">
+				<img class="salir" src="imgs\boton-x.png">
+			</a>
+		</div>
+	</header>
+
+	<nav class="menu" id="menu1">
+		<ul>
+			<li class="ajus">
+				<input type="button" value="Ocultar" onclick="ocultar()">
+				<img class="ajustes" src="imgs\ajustes.png">
+			</li>
+			<li>Consultas</li>
+			<li>Pagos y recargas</li>
+			<li>Daviturno</li>
+			<li>Transferencias y avances</li>
+			<li>Mis pagos automáticos</li>
+			<li>Pague fácil</li>
+			<li>Retiros sin tarjeta</li>
+			<li>Abrir productos en línea</li>
+		</ul>
+	</nav>
+	
+	<main>
+		<div id ="contenido">
+			<div class="seccion1">
+				<h6 class="usuario" align="center"><b>Nombre del usuario</b></h6>
+				<p align="center" class="registro_ingreso">Último ingreso 24/07/2018 | 5:14 a.m. | IP xxx.xx.x.xxx</p>
+
+				<div class="seccion1_1">
+					<input type="button" value="Mostrar" onclick="mostrar()">
+
+					<span class="descri">Consultas</span>
+					
+					<img class="mensajes" src="imgs\mensajes.png">
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>			
+		<img class="billete" src="imgs\billete.png">
+		<div  class="footer">
+			<h6 class="gasto"><b>He gastado</b> este mes</h6>
+			<h6 class="valor"><b>$100.000.00</b></h6>
+		</div>
+
+		<div class="mas1">
+			<h6><b>Ver más</b></h6>
+		</div>
+	</footer>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="menu.js"></script>
+</body>
+</html>
